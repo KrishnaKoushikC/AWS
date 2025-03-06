@@ -1,1 +1,11 @@
 1. What is AWS IAM?
+Ans: AWS Identity and Access Management (IAM) is a AWS Service that helps you manage who can access your AWS account and what they can do.With IAM, you can create and manage users, groups, and roles, and define permissions to control access to your AWS services and data securely.
+2. How is authentication controlled in the IAM service?
+Ans: IAM controls authentication by using usernames, passwords, access keys, MFA. It can also use login information from other providers, like Google or Microsoft, to confirm your identity before letting you into AWS services and resources.
+3. Explain how IAM works in AWS?
+Ans: AWS works as:
+  Create users and groups: You can set up different users (people or apps) and organize them into groups to make managing         access easier.  
+  Set permissions: IAM lets you decide exactly what each user or app can do with your AWS resources, like controlling who can     access servers, storage, or databases.
+  Ensure security: IAM makes sure that only trusted users can get into your AWS account and only do the things you're allowing    them to do, helping to prevent unauthorized access.
+  Temporary roles: IAM also lets you create roles for users or apps that need temporary access to certain resources, making it 
+  easier to manage access safely.
